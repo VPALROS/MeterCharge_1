@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MeterCharge.UnitTests
+namespace MeterCharge.UnitTest
 {
     public class DependencyInjectionModule : NinjectModule
     {

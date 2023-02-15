@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterCharge.Entity", "..\MeterCharge.Entity\MeterCharge.Entity.csproj", "{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterCharge.UnitTests", "..\MeterCharge.UnitTests\MeterCharge.UnitTests.csproj", "{D228D1C8-F7CA-4756-89C1-511A1390EB74}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterCharge.BusinessLogic", "MeterCharge.BusinesLogic\MeterCharge.BusinessLogic.csproj", "{DBBB23DF-CCAD-412D-935D-0C6B23B9D67D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterCharge.Entity", "MeterCharge.Entity\MeterCharge.Entity.csproj", "{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeterCharge.UnitTest", "MeterCharge.UnitTest\MeterCharge.UnitTest.csproj", "{CF11AAE1-C45C-4C37-9F74-6B3F322E0F49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +15,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D228D1C8-F7CA-4756-89C1-511A1390EB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D228D1C8-F7CA-4756-89C1-511A1390EB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D228D1C8-F7CA-4756-89C1-511A1390EB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D228D1C8-F7CA-4756-89C1-511A1390EB74}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DBBB23DF-CCAD-412D-935D-0C6B23B9D67D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DBBB23DF-CCAD-412D-935D-0C6B23B9D67D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBBB23DF-CCAD-412D-935D-0C6B23B9D67D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBBB23DF-CCAD-412D-935D-0C6B23B9D67D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{843C64AD-EAC4-4D03-B54C-3B09D4D0D25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF11AAE1-C45C-4C37-9F74-6B3F322E0F49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF11AAE1-C45C-4C37-9F74-6B3F322E0F49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF11AAE1-C45C-4C37-9F74-6B3F322E0F49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF11AAE1-C45C-4C37-9F74-6B3F322E0F49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

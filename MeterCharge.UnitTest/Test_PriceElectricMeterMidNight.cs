@@ -9,7 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace MeterCharge.UnitTests
+namespace MeterCharge.UnitTest
 {
     [TestClass]
     public class Test_PriceElectricMeterMidNight
